@@ -12,6 +12,7 @@ const routes: Routes = [
     path: 'playlist', loadChildren: () =>
       import('./pages/playlist/playlist.module').then(m => m.PlaylistModule)
   },
+  {path: '', pathMatch: 'full', redirectTo: 'auth' }
 
 ];
 

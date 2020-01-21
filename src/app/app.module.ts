@@ -1,5 +1,3 @@
-import { PlaylistModule } from './pages/playlist/playlist.module';
-import { AuthModule } from './pages/auth/auth.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,9 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AuthModule,
-    PlaylistModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
